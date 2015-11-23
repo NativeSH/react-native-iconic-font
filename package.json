@@ -1,0 +1,27 @@
+{
+  "name": "rnicons",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sospartan/react-native-iconic-font"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android"],
+  "author": "sospartan@gmail.com",
+  "license": "ISC",
+  "files":[
+    "weathericons",
+    "typicons",
+    "octicons",
+    "foundation-icons",
+    "fonts",
+    "font-awesome"
+  ]
+}
