@@ -41,7 +41,8 @@ reload js , you'll see the icon there.
 [ionicons](<http://ionicons.com/>)  
 [octicons](<https://github.com/github/octicons>)  
 [typicons](<https://github.com/stephenhutchings/typicons.font>)  
-[weathericons](<https://erikflowers.github.io/weather-icons/>)  
+[weathericons](<https://erikflowers.github.io/weather-icons/>)
+[material-design-icons](<http://google.github.io/material-design-icons/>)
 ...  
    
 **In fact,it will be so easy to use any iconic font after you read this article.**
@@ -73,3 +74,8 @@ It's same process in React native except the CSS rules.That's what this project 
 Run one command to generate the js module   
  `iconmap -f test/font-awesome-v4.4.0.css -p '^\.fa-([a-z0-9-]+?):before$'`  
 Read more:  <https://github.com/sospartan/iconfont-map-builder> 
+
+
+## Changelog
+2015.11.24:
+    * add material-design-icons
