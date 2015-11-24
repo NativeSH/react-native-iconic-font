@@ -6,9 +6,9 @@ Use iconic font in a simple way.
 `npm install --save react-native-iconic-font`
 
 
-	**setp 2 and 3 is same as offical way to use custom font.**  
+	**setp 2 and 3 are same as offical way to use custom font.**  
 2. copy font file 
-	* font file is under `node_modules/react-native-iconic-font/fonts/`
+	* font files are under `node_modules/react-native-iconic-font/fonts/`
 	* just copy the file you want to use 
 	* android:  
   copy file to `[project root]/android/app/src/main/assets/fonts/`
@@ -53,14 +53,14 @@ There are already some good solutions to use iconic font :
 <https://github.com/lwhiteley/react-native-android-iconify>  
 <https://github.com/corymsmith/react-native-icons>  
 
-**But** ... these library all require native code and/or native project config file modifications.  
+**But** ... these libraries are all require native code and/or native project config file modifications.  
 Believe me , it confusd many 'javascript' developers who are familar with 'native code'.  
 That's why i start this project .  
 **No native code. Let's try to use pure javascript!**
 
 ## How  
-A font system is basicly like a 'character-graph' mapping.  
-In a web page,CSS rules deal webfont like this:
+A font system is basically a 'character-graph' mapping.  
+In a web page,CSS rules deal with webfont like this:
 
 ```
 <i class="fa-twitter">
