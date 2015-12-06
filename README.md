@@ -2,6 +2,9 @@
 Use iconic font in a simple way.
 
 ## Usage
+### Notice:android library add custom font supports in v0.16,so make sure your native dependency is above it:  
+`compile 'com.facebook.react:react-native:0.16.+'`
+
 1. install module  
 `npm install --save react-native-iconic-font`
 
