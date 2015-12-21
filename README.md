@@ -27,8 +27,9 @@ var icon = require('react-native-iconic-font/font-awesome');
 
 React.createClass({
   render: function() {
+  //FontFamily perproty value must same as font file name.
     return (
-       <Text style={{fontFamily: 'fontawesome',fontSize:30}}>
+       <Text style={{fontFamily: 'fontawesome-webfont',fontSize:30}}> 
                 twitter-icon:{icon('twitter')}
        </Text>
     );
