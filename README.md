@@ -21,7 +21,7 @@ Use iconic font in a simple way.
 3. import to use  
 
 ```
-var icon = require('react-native-iconic-font/font-awesome');
+var icon = require('react-native-iconic-font/fontawesome');
 
 ...
 
@@ -29,7 +29,7 @@ React.createClass({
   render: function() {
   //FontFamily perproty value must same as font file name.
     return (
-       <Text style={{fontFamily: 'fontawesome-webfont',fontSize:30}}> 
+       <Text style={{fontFamily: 'fontawesome',fontSize:30}}> 
                 twitter-icon:{icon('twitter')}
        </Text>
     );
