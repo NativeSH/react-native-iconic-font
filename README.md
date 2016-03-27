@@ -14,9 +14,9 @@ Use iconic font in a simple way.
 	* font files are under `node_modules/react-native-iconic-font/fonts/`
 	* just copy the file you want to use 
 	* android:  
-  copy file to `[project root]/android/app/src/main/assets/fonts/`
+  	  copy file to `[project root]/android/app/src/main/assets/fonts/`
  	* ios:  
- 	same as <https://github.com/oblador/react-native-vector-icons#option-manually>
+ 	  same as <https://github.com/oblador/react-native-vector-icons#option-manually>
  	
 3. import to use  
 
@@ -40,13 +40,13 @@ React.createClass({
 reload js , you'll see the icon there.
 
 ##Icon Fonts
-[Font-awesome](<http://fontawesome.io/>)  
-[foundation-icons](<http://zurb.com/playground/foundation-icon-fonts-3>)  
-[ionicons](<http://ionicons.com/>)  
-[octicons](<https://github.com/github/octicons>)  
-[typicons](<https://github.com/stephenhutchings/typicons.font>)  
-[weathericons](<https://erikflowers.github.io/weather-icons/>)
-[material-design-icons](<http://google.github.io/material-design-icons/>)
+* [Font-awesome](<http://fontawesome.io/>)  
+* [foundation-icons](<http://zurb.com/playground/foundation-icon-fonts-3>)  
+* [ionicons](<http://ionicons.com/>)  
+* [octicons](<https://github.com/github/octicons>)  
+* [typicons](<https://github.com/stephenhutchings/typicons.font>)  
+* [weathericons](<https://erikflowers.github.io/weather-icons/>)
+* [material-design-icons](<http://google.github.io/material-design-icons/>)
 ...  
    
 **In fact,it will be so easy to use any iconic font after you read this article.**
