@@ -2,21 +2,17 @@
 Use iconic font in a simple way.
 
 ## Usage
-### Notice:android library add custom font supports in v0.16,so make sure your native dependency is above it:  
+### Notice: Android added custom font support in v0.16, so make sure your native dependency is above it:  
 `compile 'com.facebook.react:react-native:0.16.+'`
 
 1. install module  
 `npm install --save react-native-iconic-font`
-
-
-	**setp 2 and 3 are same as offical way to use custom font.**  
+	**step 2 and 3 are same as offical way to use custom font.**  
 2. copy font file 
 	* font files are under `node_modules/react-native-iconic-font/fonts/`
 	* just copy the file you want to use 
-	* android:  
-  copy file to `[project root]/android/app/src/main/assets/fonts/`
- 	* ios:  
- 	same as <https://github.com/oblador/react-native-vector-icons#option-manually>
+	* android: copy file to `[project root]/android/app/src/main/assets/fonts/`
+ 	* ios: see <https://github.com/oblador/react-native-vector-icons#option-manually>
  	
 3. import to use  
 
@@ -37,7 +33,7 @@ React.createClass({
 });
 
 ```
-reload js , you'll see the icon there.
+Reload js and you'll see the icon there.
 
 ##Icon Fonts
 [Font-awesome](<http://fontawesome.io/>)  
@@ -49,7 +45,7 @@ reload js , you'll see the icon there.
 [material-design-icons](<http://google.github.io/material-design-icons/>)
 ...  
    
-**In fact,it will be so easy to use any iconic font after you read this article.**
+**In fact, it will be so easy to use any iconic font after you read this article.**
 
 
 ## What's the difference?
@@ -58,14 +54,14 @@ There are already some good solutions to use iconic font :
 <https://github.com/lwhiteley/react-native-android-iconify>  
 <https://github.com/corymsmith/react-native-icons>  
 
-**But** ... these libraries are all require native code and/or native project config file modifications.  
-Believe me , it confusd many 'javascript' developers who are familar with 'native code'.  
+**But** ... these libraries all require native code and/or native project config file modifications.  
+Believe me, it confused many `javascript` developers who are familar with 'native code'.  
 That's why i start this project .  
 **No native code. Let's try to use pure javascript!**
 
 ## How  
 A font system is basically a 'character-graph' mapping.  
-In a web page,CSS rules deal with webfont like this:
+In a web page, CSS rules deal with webfonts like this:
 
 ```
 <i class="fa-twitter">
@@ -73,13 +69,14 @@ In a web page,CSS rules deal with webfont like this:
                                  ==font system==>  a twitter graph
 
 ```
-It's same process in React native except the CSS rules.That's what this project do.**Mapping names to characters.**    
-## Besides I create a command tool to help transforming CSS file to these mapping module. 
+It's the same process in React Native except the CSS rules. That's what this project does. **Mapping names to characters.**    
+## Besides I created a command tool to transform a CSS file to these mapping module. 
 Run one command to generate the js module   
  `iconmap -f test/font-awesome-v4.4.0.css -p '^\.fa-([a-z0-9-]+?):before$'`  
 Read more:  <https://github.com/sospartan/iconfont-map-builder> 
 
 
 ## Changelog
-2015.11.24:
+
+### 2015.11.24:
     * add material-design-icons
