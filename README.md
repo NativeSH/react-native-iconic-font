@@ -7,7 +7,9 @@ Use iconic font in a simple way.
 
 1. install module  
 `npm install --save react-native-iconic-font`
-	**step 2 and 3 are same as offical way to use custom font.**  
+	
+**step 2 and 3 are same as official way to use custom font.**  
+
 2. copy font file 
 	* font files are under `node_modules/react-native-iconic-font/fonts/`
 	* just copy the file you want to use 
