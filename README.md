@@ -38,13 +38,13 @@ React.createClass({
 Reload js and you'll see the icon there.
 
 ##Icon Fonts
-[Font-awesome](<http://fontawesome.io/>)  
-[foundation-icons](<http://zurb.com/playground/foundation-icon-fonts-3>)  
-[ionicons](<http://ionicons.com/>)  
-[octicons](<https://github.com/github/octicons>)  
-[typicons](<https://github.com/stephenhutchings/typicons.font>)  
-[weathericons](<https://erikflowers.github.io/weather-icons/>)
-[material-design-icons](<http://google.github.io/material-design-icons/>)
+* [Font-awesome](<http://fontawesome.io/>)  
+* [foundation-icons](<http://zurb.com/playground/foundation-icon-fonts-3>)  
+* [ionicons](<http://ionicons.com/>)  
+* [octicons](<https://github.com/github/octicons>)  
+* [typicons](<https://github.com/stephenhutchings/typicons.font>)  
+* [weathericons](<https://erikflowers.github.io/weather-icons/>)
+* [material-design-icons](<http://google.github.io/material-design-icons/>)
 ...  
    
 **In fact, it will be so easy to use any iconic font after you read this article.**
